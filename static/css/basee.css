@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: lightslategray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+header {
+    display: flex;
+    justify-content: center; /* Centers the links horizontally */
+    background-color: #333; /* Dark background for header */
+    padding: 15px 0; /* Padding for top and bottom */
+}
+
+header a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 20px; /* Space between links */
+    font-size: 18px; /* Font size for the links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+header a:hover {
+    color: #007BFF; /* Change color on hover */
+}
